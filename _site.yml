@@ -1,0 +1,28 @@
+name: Eric Beogo
+output_dir: '.'
+navbar:
+  title: Eric Beogo
+  type: inverse
+  left:
+  - text: Home
+    icon: fa-home
+    href: index.html
+  
+  - text: My CV
+    href: cv.html
+  right:
+  - icon: fa-envelope fa-lg
+    href: contact.html
+  - icon: fa-github fa-lg
+    href: https://github.com/EricBeogo
+  - icon: fa-linkedin fa-lg
+    href: https://www.linkedin.com/in/eric-beogo-30b878140/
+  - icon: fa-facebook fa-lg
+    href: https://www.facebook.com/beogoe
+output:
+  html_document:
+    theme: yeti
+    highlight: textmate
+    css: styles.css
+    lib_dir: site_libs
+    self_contained: no
